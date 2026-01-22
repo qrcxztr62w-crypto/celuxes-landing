@@ -4,80 +4,177 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Celuxes Landing</title>
-    <style>
-      :root {
-        color-scheme: light;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.5;
-        background: #f5f6f8;
-        color: #18202a;
-      }
-      body {
-        margin: 0;
-      }
-      .hero {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 48px 24px;
-      }
-      .card {
-        max-width: 720px;
-        background: #ffffff;
-        border-radius: 24px;
-        padding: 48px;
-        box-shadow: 0 24px 48px rgba(24, 32, 42, 0.12);
-      }
-      .pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        padding: 6px 14px;
-        border-radius: 999px;
-        background: #eef1ff;
-        color: #2c3b87;
-        font-weight: 600;
-        font-size: 14px;
-      }
-      h1 {
-        margin: 18px 0 12px;
-        font-size: clamp(32px, 5vw, 48px);
-      }
-      p {
-        margin: 0 0 18px;
-        font-size: 18px;
-        color: #3b4655;
-      }
-      .cta {
-        display: inline-flex;
-        align-items: center;
-        gap: 12px;
-        padding: 12px 20px;
-        border-radius: 12px;
-        background: #202c7f;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 600;
-      }
-      .footer {
-        margin-top: 28px;
-        font-size: 14px;
-        color: #6a7483;
-      }
-    </style>
+    <meta
+      name="description"
+      content="Celuxes deneyimini keşfedin. Ürün lansmanlarımızı takip etmek, yaklaşan koleksiyonları görmek ve ekipten son güncellemeleri almak için doğru yerdesiniz."
+    />
+    <meta property="og:title" content="Celuxes Landing" />
+    <meta
+      property="og:description"
+      content="Celuxes deneyimini keşfedin. Ürün lansmanlarımızı takip etmek, yaklaşan koleksiyonları görmek ve ekipten son güncellemeleri almak için doğru yerdesiniz."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-placeholder.svg" />
+    <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
-    <main class="hero">
-      <section class="card">
-        <span class="pill">Yeni Landing • 2024</span>
-        <h1>Celuxes deneyimini keşfedin</h1>
-        <p>
-          Ürün lansmanlarımızı takip etmek, yaklaşan koleksiyonları görmek ve
-          ekipten son güncellemeleri almak için doğru yerdesiniz.
-        </p>
-        <a class="cta" href="mailto:hello@celuxes.com">Bizimle iletişime geçin</a>
-        <div class="footer">Yakında daha fazlası geliyor.</div>
-      </section>
-    </main>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__glow" aria-hidden="true"></div>
+        <div class="container hero__content">
+          <div class="hero__text">
+            <span class="badge">Yeni Landing • 2024</span>
+            <h1>Celuxes deneyimini keşfedin</h1>
+            <p>
+              Ürün lansmanlarımızı takip etmek, yaklaşan koleksiyonları görmek ve
+              ekipten son güncellemeleri almak için doğru yerdesiniz.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#" data-toast="yakinda"
+                >Bizimle iletişime geçin</a
+              >
+              <a class="button button--secondary" href="#" data-toast="yakinda"
+                >Koleksiyonları keşfedin</a
+              >
+            </div>
+            <div class="hero__note">
+              <span class="dot"></span>
+              Yakında daha fazlası geliyor.
+            </div>
+          </div>
+          <div class="hero__panel" aria-hidden="true">
+            <div class="glass-card">
+              <div class="glass-card__header">
+                <span>Celuxes Premium</span>
+                <span class="status">Live</span>
+              </div>
+              <div class="glass-card__body">
+                <div class="metric">
+                  <span class="metric__label">Koleksiyon</span>
+                  <strong class="metric__value">Sınırlı</strong>
+                </div>
+                <div class="metric">
+                  <span class="metric__label">Deneyim</span>
+                  <strong class="metric__value">Özel</strong>
+                </div>
+                <div class="metric">
+                  <span class="metric__label">Duyuru</span>
+                  <strong class="metric__value">Yakında</strong>
+                </div>
+              </div>
+              <div class="glass-card__footer">
+                <span class="pulse"></span>
+                Seçkin detaylar, modern dokunuşlar.
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="container benefits" aria-labelledby="benefits-title">
+          <div class="section-title">
+            <p class="eyebrow">Ayrıcalıklar</p>
+            <h2 id="benefits-title">Celuxes ile lüksün yeni standardı</h2>
+            <p>
+              Modern tipografi, dengeli boşluklar ve sofistike renk paletiyle
+              markanızı bir üst seviyeye taşıyın.
+            </p>
+          </div>
+          <div class="benefits__grid">
+            <article class="benefit-card">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 3l7 4v5c0 4.418-3.134 8.418-7 9-3.866-.582-7-4.582-7-9V7l7-4z"
+                  />
+                </svg>
+              </div>
+              <h3>Güven Veren Estetik</h3>
+              <p>
+                Temiz çizgiler, yumuşak gölgeler ve cam hissi kartlarla premium
+                bir ilk izlenim sunun.
+              </p>
+            </article>
+            <article class="benefit-card">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6 6h12v12H6zM3 3h18v18H3z"
+                  />
+                </svg>
+              </div>
+              <h3>Minimal ve Dengeli</h3>
+              <p>
+                Boşluk kullanımı ve tipografik hiyerarşi ile içerikleriniz
+                kusursuz okunur.
+              </p>
+            </article>
+            <article class="benefit-card">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 4a8 8 0 100 16 8 8 0 000-16zm0 3a5 5 0 110 10 5 5 0 010-10z"
+                  />
+                </svg>
+              </div>
+              <h3>Özenli Detaylar</h3>
+              <p>
+                Cam/soft shadow kartlar, subtle gradient arkaplan ve modern
+                butonlar ile lüks hissini güçlendirin.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact" aria-labelledby="contact-title">
+          <div class="container contact__inner">
+            <div class="section-title section-title--light">
+              <p class="eyebrow">İletişim</p>
+              <h2 id="contact-title">Size en hızlı şekilde ulaşalım</h2>
+              <p>
+                Celuxes ile iletişime geçmek için WhatsApp veya çağrı merkezini
+                kullanabilirsiniz.
+              </p>
+            </div>
+            <div class="contact__cards">
+              <div class="contact-card">
+                <div class="contact-card__label">WhatsApp</div>
+                <strong class="contact-card__value">+90 5XX XXX XX XX</strong>
+                <button class="button button--primary" data-toast="yakinda">
+                  WhatsApp üzerinden yazın
+                </button>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card__label">Çağrı Merkezi</div>
+                <strong class="contact-card__value">0 (850) XXX XX XX</strong>
+                <button class="button button--secondary" data-toast="yakinda">
+                  Çağrı merkezi ile görüşün
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <div class="footer__brand">
+            <span class="badge badge--ghost">Celuxes</span>
+            <p>Yakında daha fazlası geliyor.</p>
+          </div>
+          <div class="footer__meta">
+            <span>© 2024 Celuxes. Tüm hakları saklıdır.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="toast" role="status" aria-live="polite" aria-hidden="true">
+      <span class="toast__icon" aria-hidden="true">✦</span>
+      <span>Yakında daha fazlası geliyor.</span>
+    </div>
+
+    <script src="assets/app.js"></script>
   </body>
 </html>
