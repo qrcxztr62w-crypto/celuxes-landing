@@ -1,0 +1,21 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2B241E" />
+      <stop offset="100%" stop-color="#1F1A16" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9DFD4" />
+      <stop offset="100%" stop-color="#B18A5F" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="48" fill="url(#bg)" />
+  <circle cx="240" cy="140" r="120" fill="url(#accent)" fill-opacity="0.25" />
+  <circle cx="980" cy="500" r="160" fill="url(#accent)" fill-opacity="0.2" />
+  <text x="120" y="320" fill="#F8F4F0" font-family="Arial, sans-serif" font-size="54" font-weight="700">
+    Celuxes Landing
+  </text>
+  <text x="120" y="390" fill="#E9DFD4" font-family="Arial, sans-serif" font-size="28">
+    Premium deneyime merhaba.
+  </text>
+</svg>
